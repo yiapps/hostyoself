@@ -55,7 +55,7 @@ func main() {
 			Description: "host files from your computer",
 			HelpName:    "hostyoself relay",
 			Flags: []cli.Flag{
-				cli.StringFlag{Name: "url, u", Value: "https://pooltex.services", Usage: "URL of relay to connect"},
+				cli.StringFlag{Name: "url, u", Value: "https://hostyoself.com", Usage: "URL of relay to connect"},
 				cli.StringFlag{Name: "domain, d", Value: "", Usage: "domain to use (default is random)"},
 				cli.StringFlag{Name: "key, k", Value: "", Usage: "key value to use (default is random)"},
 				cli.StringFlag{Name: "folder, f", Value: ".", Usage: "folder to serve files"},
